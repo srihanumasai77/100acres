@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className="wrapper">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
